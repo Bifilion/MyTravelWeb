@@ -28,16 +28,16 @@
                         <a class="nav-link active" href="# ">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="# ">Destination</a>
+                        <a class="nav-link" href="#destination ">Destination</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="# ">Next</a>
+                        <a class="nav-link" href="#next ">Next</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="# ">Gallery</a>
+                        <a class="nav-link" href="#gallery ">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="# ">Contact</a>
+                        <a class="nav-link" href="#contact ">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,132 @@
         </div>
     </section>
 
-    <section class="section2" id="destination"></section>
+    <section class="section2" id="destination">
+        <div class="container2">
+            <div class="arrow l" onclick="prev()">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="slide slide-1">
+                <div class="caption">
+                    <h2>Zakynthos</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="slide slide-2">
+                <div class="caption">
+                    <h2>Croatia</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="slide slide-3">
+                <div class="caption">
+                    <h2>Mallorca</h2>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="arrow r" onClick="next()">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3" id="next">
+        <div class="header">
+            <h1>Next Destination?</h1>
+        </div>
+        <div class="container3">
+            <div class="card">
+                <img src="images/japan.jpg" alt="" />
+                <div class="card-info">
+                    <h1>Japan</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At tenetur velit eveniet libero sunt eos veniam odio dignissimos explicabo ipsum incidunt provident voluptates placeat, reprehenderit cumque autem illo nobis nisi?
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/bali.jpg" alt="" />
+                <div class="card-info">
+                    <h1>Bali</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At tenetur velit eveniet libero sunt eos veniam odio dignissimos explicabo ipsum incidunt provident voluptates placeat, reprehenderit cumque autem illo nobis nisi?
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/island.jpg" alt="" />
+                <div class="card-info">
+                    <h1>Island</h1>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At tenetur velit eveniet libero sunt eos veniam odio dignissimos explicabo ipsum incidunt provident voluptates placeat, reprehenderit cumque autem illo nobis nisi?
+                    </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section4" id="gallery">
+        <div class="container4 clearfix">
+            <h1>Gallery</h1>
+            <ul class="filter-menu">
+                <li data-target="all">All</li>
+                <li data-target="zakynthos">Zakynthos</li>
+                <li data-target="croatia">Croatia</li>
+                <li data-target="mallorca">Mallorca</li>
+            </ul>
+
+            <ul class="filter-item">
+                <li data-item="croatia">
+                    <img src="images/chorvatsko1.jpg" alt="" />
+                </li>
+                <li data-item="croatia">
+                    <img src="images/chorvatsko2.jpg" alt="" />
+                </li>
+                <li data-item="croatia">
+                    <img src="images/chorvatsko3.jpg" alt="" />
+                </li>
+                <li data-item="mallorca"><img src="images/malorca1.jpg" alt="" /></li>
+                <li data-item="mallorca"><img src="images/malorca2.jpg" alt="" /></li>
+                <li data-item="mallorca"><img src="images/malorca3.jpg" alt="" /></li>
+                <li data-item="mallorca"><img src="images/malorca4.jpg" alt="" /></li>
+                <li data-item="mallorca"><img src="images/malorca5.jpg" alt="" /></li>
+                <li data-item="zakynthos">
+                    <img src="images/zakynthos1.jpg" alt="" />
+                </li>
+                <li data-item="zakynthos">
+                    <img src="images/zakynthos2.jpg" alt="" />
+                </li>
+                <li data-item="zakynthos">
+                    <img src="images/zakynthos3.jpg" alt="" />
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section5" id="contact">
+        <div class="container5">
+            <div class="form">
+                <h1>Contact Me</h1>
+                <form>
+                    <input type="text" placeholder="Name" class="contact-txt" />
+                    <input type="text" placeholder="Email" class="contact-txt" />
+                    <textarea placeholder="Message..." class="contact-txtarea"></textarea>
+                    <input type="submit" placeholder="Submit" class="contact-btn" />
+                </form>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41482.27318207487!2d17.400427868203664!3d49.472377338655626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713ac2e1c81c2b9%3A0x400af0f6615b620!2zUMWZZXJvdg!5e0!3m2!1scs!2scz!4v1634115789930!5m2!1scs!2scz"
+                    width="100%" height="auto" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <h2>Created by JP &copy; All rights reserved</h2>
+    </footer>
 
     <script src="script.js "></script>
 </body>
